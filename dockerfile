@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:test
 
 RUN apt-get install -y nginx
 ADD nginx.conf /etc/nginx/nginx.conf
